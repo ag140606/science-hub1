@@ -1,10 +1,10 @@
 import { Button } from "@/components/ui/button";
 import FeatureCard from "@/components/FeatureCard";
-import { Microscope, Table2, Dna, MessageSquare, Sparkles } from "lucide-react";
+import { Microscope, Table2, Beaker, MessageSquare, Sparkles } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import chemvisionImg from "@/assets/chemvision.jpg";
 import periodicTableImg from "@/assets/periodic-table.jpg";
-import dnaExplorerImg from "@/assets/dna-explorer.jpg";
+import biolabImg from "@/assets/biolab-3d.jpg";
 import aiChatbotImg from "@/assets/ai-chatbot.jpg";
 
 const Index = () => {
@@ -72,10 +72,10 @@ const Index = () => {
           />
           
           <FeatureCard
-            title="DNA Explorer"
-            description="Journey through the blueprint of life. Visualize DNA sequences, understand genetic codes, and explore the fascinating world of molecular biology with our intuitive DNA visualization tools."
-            image={dnaExplorerImg}
-            icon={<Dna className="h-6 w-6" />}
+            title="BioLab 3D"
+            description="Step into a virtual 3D biology laboratory. Conduct experiments, examine cells under microscopes, study organisms, and explore biological processes in an immersive 3D environment."
+            image={biolabImg}
+            icon={<Beaker className="h-6 w-6" />}
           />
           
           <FeatureCard
