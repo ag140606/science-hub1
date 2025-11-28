@@ -35,7 +35,7 @@ const Index = () => {
               Your Gateway to Scientific Discovery
             </h1>
             <p className="text-xl md:text-2xl text-white/90 leading-relaxed">
-              Dive into chemistry, biology, and AI-powered learning with our comprehensive suite of interactive tools
+              Dive into physics, chemistry, biology, and AI-powered learning with our comprehensive suite of interactive tools
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
               <Button size="lg" className="bg-white text-primary hover:bg-white/90 font-semibold text-lg px-8">
