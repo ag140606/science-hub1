@@ -37,14 +37,6 @@ const Index = () => {
             <p className="text-xl md:text-2xl text-white/90 leading-relaxed">
               Dive into physics, chemistry, biology, and AI-powered learning with our comprehensive suite of interactive tools
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
-              <Button size="lg" className="bg-white text-primary hover:bg-white/90 font-semibold text-lg px-8">
-                Get Started
-              </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 font-semibold text-lg px-8">
-                Learn More
-              </Button>
-            </div>
           </div>
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-background to-transparent z-10" />
