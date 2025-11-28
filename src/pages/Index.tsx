@@ -60,6 +60,7 @@ const Index = () => {
             description="Visualize complex molecular structures in stunning 3D. Explore chemical compounds, understand bonding patterns, and dive deep into the molecular world with our advanced visualization tools."
             image={chemvisionImg}
             icon={<Microscope className="h-6 w-6" />}
+            href="https://chem-verse-7egs.vercel.app/"
           />
           
           <FeatureCard
@@ -67,13 +68,15 @@ const Index = () => {
             description="Interactive periodic table with detailed information about every element. Discover properties, electron configurations, and fascinating facts about the building blocks of our universe."
             image={periodicTableImg}
             icon={<Table2 className="h-6 w-6" />}
+            href="https://periodic-explorer.vercel.app/"
           />
           
           <FeatureCard
-            title="BioLab 3D"
+            title="Chromalume"
             description="Step into a virtual 3D biology laboratory. Conduct experiments, examine cells under microscopes, study organisms, and explore biological processes in an immersive 3D environment."
             image={biolabImg}
             icon={<Beaker className="h-6 w-6" />}
+            href="https://chromalume.vercel.app/"
           />
           
           <FeatureCard
@@ -81,6 +84,7 @@ const Index = () => {
             description="Your personal science tutor powered by AI. Ask questions, get instant explanations, and receive personalized learning support for all your chemistry and biology inquiries."
             image={aiChatbotImg}
             icon={<MessageSquare className="h-6 w-6" />}
+            href="https://groq-chat-buddy.vercel.app/"
           />
           
           <FeatureCard
@@ -88,6 +92,7 @@ const Index = () => {
             description="Explore the behavior of light through interactive simulations. Study reflection, refraction, lens systems, and optical phenomena with real-time ray tracing and visualization tools."
             image={rayOpticsImg}
             icon={<Zap className="h-6 w-6" />}
+            href="https://ray-optics-explorer.vercel.app/"
           />
           
           <FeatureCard
@@ -95,6 +100,7 @@ const Index = () => {
             description="Learn digital logic design with interactive circuit simulations. Build and test logic gates, combinational circuits, sequential circuits, and understand the fundamentals of digital systems."
             image={digitalElectronicsImg}
             icon={<Cpu className="h-6 w-6" />}
+            href="https://digital-circuit-lab-0cc28572.vercel.app/"
           />
           
           <FeatureCard
@@ -102,6 +108,7 @@ const Index = () => {
             description="Master the physics of motion through interactive simulations. Analyze velocity, acceleration, projectile motion, and understand the principles of classical mechanics with visual demonstrations."
             image={kinematicsImg}
             icon={<Move className="h-6 w-6" />}
+            href="https://motion-masters.vercel.app/"
           />
           
           <FeatureCard
@@ -109,14 +116,9 @@ const Index = () => {
             description="Dive into the science of heat and energy transfer. Explore temperature, entropy, heat engines, and thermodynamic processes with interactive visualizations and simulations."
             image={thermodynamicsImg}
             icon={<Thermometer className="h-6 w-6" />}
+            href="https://thermo-explorer.vercel.app/"
           />
-          
-          <FeatureCard
-            title="Astrology"
-            description="Journey through the cosmos and explore celestial bodies. Study star charts, zodiac constellations, planetary positions, and discover the mysteries of the universe through interactive sky maps."
-            image={astrologyImg}
-            icon={<Stars className="h-6 w-6" />}
-          />
+        
         </div>
       </section>
 
