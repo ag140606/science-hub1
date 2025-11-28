@@ -1,11 +1,16 @@
 import { Button } from "@/components/ui/button";
 import FeatureCard from "@/components/FeatureCard";
-import { Microscope, Table2, Beaker, MessageSquare, Sparkles } from "lucide-react";
+import { Microscope, Table2, Beaker, MessageSquare, Sparkles, Zap, Cpu, Move, Thermometer, Stars } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import chemvisionImg from "@/assets/chemvision.jpg";
 import periodicTableImg from "@/assets/periodic-table.jpg";
 import biolabImg from "@/assets/biolab-3d.jpg";
 import aiChatbotImg from "@/assets/ai-chatbot.jpg";
+import rayOpticsImg from "@/assets/ray-optics.jpg";
+import digitalElectronicsImg from "@/assets/digital-electronics.jpg";
+import kinematicsImg from "@/assets/kinematics.jpg";
+import thermodynamicsImg from "@/assets/thermodynamics.jpg";
+import astrologyImg from "@/assets/astrology.jpg";
 
 const Index = () => {
   return (
@@ -83,6 +88,41 @@ const Index = () => {
             description="Your personal science tutor powered by AI. Ask questions, get instant explanations, and receive personalized learning support for all your chemistry and biology inquiries."
             image={aiChatbotImg}
             icon={<MessageSquare className="h-6 w-6" />}
+          />
+          
+          <FeatureCard
+            title="Ray Optics"
+            description="Explore the behavior of light through interactive simulations. Study reflection, refraction, lens systems, and optical phenomena with real-time ray tracing and visualization tools."
+            image={rayOpticsImg}
+            icon={<Zap className="h-6 w-6" />}
+          />
+          
+          <FeatureCard
+            title="Digital Electronics"
+            description="Learn digital logic design with interactive circuit simulations. Build and test logic gates, combinational circuits, sequential circuits, and understand the fundamentals of digital systems."
+            image={digitalElectronicsImg}
+            icon={<Cpu className="h-6 w-6" />}
+          />
+          
+          <FeatureCard
+            title="Kinematics"
+            description="Master the physics of motion through interactive simulations. Analyze velocity, acceleration, projectile motion, and understand the principles of classical mechanics with visual demonstrations."
+            image={kinematicsImg}
+            icon={<Move className="h-6 w-6" />}
+          />
+          
+          <FeatureCard
+            title="Thermodynamics"
+            description="Dive into the science of heat and energy transfer. Explore temperature, entropy, heat engines, and thermodynamic processes with interactive visualizations and simulations."
+            image={thermodynamicsImg}
+            icon={<Thermometer className="h-6 w-6" />}
+          />
+          
+          <FeatureCard
+            title="Astrology"
+            description="Journey through the cosmos and explore celestial bodies. Study star charts, zodiac constellations, planetary positions, and discover the mysteries of the universe through interactive sky maps."
+            image={astrologyImg}
+            icon={<Stars className="h-6 w-6" />}
           />
         </div>
       </section>
