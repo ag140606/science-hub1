@@ -18,11 +18,12 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative overflow-hidden">
         <div 
-          className="absolute inset-0 z-0"
+          className="absolute inset-0 z-0 bg-gradient-to-br from-primary via-accent-foreground to-primary"
           style={{
-            backgroundImage: `linear-gradient(135deg, hsl(187 85% 45% / 0.95), hsl(210 90% 55% / 0.95)), url(${heroBg})`,
+            backgroundImage: `url(${heroBg})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
+            backgroundBlendMode: 'overlay',
           }}
         />
         <div className="relative z-10 container mx-auto px-4 py-24 md:py-32">
