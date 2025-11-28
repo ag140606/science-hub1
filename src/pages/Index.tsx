@@ -123,7 +123,6 @@ const Index = () => {
       <footer className="border-t border-border bg-card">
         <div className="container mx-auto px-4 py-8">
           <div className="text-center text-muted-foreground">
-            <p>© 2024 Science Explorer. Empowering curiosity through technology.</p>
           </div>
         </div>
       </footer>
