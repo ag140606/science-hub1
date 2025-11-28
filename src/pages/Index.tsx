@@ -118,7 +118,6 @@ const Index = () => {
             icon={<Thermometer className="h-6 w-6" />}
             href="https://thermo-explorer.vercel.app/"
           />
-        
         </div>
       </section>
 
